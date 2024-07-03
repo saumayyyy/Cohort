@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function btnClick(){
+            const cnter = document.getElementById("btn").innerHTML;
+            let val = cnter.split(" ")[1];
+            const newVal = parseInt(val) + 1;
+            document.getElementById("btn").innerHTML ="Counter "+newVal;
+        }
+    </script>
+    <style>
+        #btn{
+            margin:auto;
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <button id="btn" onclick="btnClick()">Counter 0</button>
+</body>
+</html>

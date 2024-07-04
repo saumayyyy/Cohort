@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-mongoose.connect("mongodb+srv://saumayaggarwal6:1a2b3c@cluster0.f9lf0qm.mongodb.net/Course_Seller_App");
+mongoose.connect("<--url--->");
 
 //create schema(s)
 const userSchema = new mongoose.Schema({
